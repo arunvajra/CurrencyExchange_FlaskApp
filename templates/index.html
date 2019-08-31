@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <!-- bootstrap -->
+    <head>
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    </head>
+
+    <body>
+        <h1>Currency Value</h1>
+        <form method="POST" action="/send">
+                <input name="initial_value" type="text">
+        </form>
+
+        <h2>Convert from</h2>
+        <form method="POST" action="/send">
+                <input name="currency_base" type="text">
+        </form>
+
+        <h3>Convert to</h3>
+        <form method="POST" action="/send">
+                <input name="currency_convert" type="text">
+
+            <input class="btn btn-primary" type="submit" value="Convert">
+        </form>
+    </body>
+</html>
